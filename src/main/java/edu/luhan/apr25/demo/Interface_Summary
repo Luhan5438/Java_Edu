@@ -1,0 +1,20 @@
+1. 常量
+常量必须赋值 并且变量名为大写
+eg
+public static final int NUM_OF_CLASS
+
+2. 接口
+类型：Interface
+
+可以包含 抽象类 abstract - public abstract void <name> 必须被overwrite
+可以包含 默认类 default - public default void <name> 必须有方法 可以被overwrite
+可以包含 静态类 static - public static void <name> 调用时 必须要用方法体
+可以定义 私有方法 只有本类里调用
+        - 普通私有 private void <name>(){}
+        - 静态私有 private static <name>(){}
+
+3.接口的使用
+可以多继承
+例如 public class Tomato extends Veg，Fruit
+可以多实现
+例如 public class Human implements Run，Eat
