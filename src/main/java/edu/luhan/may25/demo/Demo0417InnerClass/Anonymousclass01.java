@@ -27,6 +27,7 @@ public class Anonymousclass01 {
         il.show();
     }
 
+
 //传统写法
     static class method1 implements IL{
     @Override
