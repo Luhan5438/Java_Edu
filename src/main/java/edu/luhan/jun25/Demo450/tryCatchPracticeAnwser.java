@@ -9,6 +9,7 @@ public class tryCatchPracticeAnwser {
         // use the loop and break to control
 
         Scanner sc = new Scanner(System.in);
+        System.out.println("please input");
         int num = 0;
         String input="";
         while(true){
@@ -21,6 +22,6 @@ public class tryCatchPracticeAnwser {
             }
         }
 
-        System.out.println("your input is" + input);
+        System.out.println("your input is " + input);
     }
 }
