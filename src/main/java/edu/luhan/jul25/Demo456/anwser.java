@@ -4,6 +4,9 @@ public class anwser {
 
     public static void main(String[] args) {
 
+
+        String a = "a";
+
         if (args.length!=2){
             throw new ArrayIndexOutOfBoundsException("arguments are not correct");
         }
